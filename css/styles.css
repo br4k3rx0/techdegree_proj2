@@ -1,0 +1,198 @@
+body {
+    background-color: #FAFAFA;
+    color: #4a4a4a;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin: 0.3em;
+}
+
+section h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.containt {
+    text-align: center;
+}
+
+#portfolio {
+    background-color: #ffffff;
+    padding: 0.8rem;
+}
+
+#contact {
+    padding: 0.8rem;
+}
+
+.detials {
+    color: #8C8C86;
+}
+
+.profile-img {
+    width: 80%;
+}
+
+.profile {
+    margin-top: 2.5rem;
+}
+
+section img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    padding: 0.8rem;
+    font-size: 0.7rem;
+}
+
+footer h1 {
+    float: left;
+}
+footer .top {
+    float: right;
+}
+
+.top a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.footer-list {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+    ul li {
+        display: inline-block;
+        background-color: transparent;
+    }
+    .profile p {
+        width: 60%;
+        float: left;
+        padding: 1rem;
+    }
+    .profile img {
+        width: 40%;
+        float: right;
+        padding: 1rem;
+    }
+
+    section {
+        width: 50%;
+        float:left;
+        padding: 0.6rem;
+    }
+    
+    #contact {
+        padding: 5rem;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .footer-list {
+        display: inline-block;
+        font-size: 0.9rem;
+        font-weight: bold;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    ul li {
+        display: inline-block;
+        background-color: transparent;
+    }
+    .profile p {
+        width: 60%;
+        float: left;
+        padding: 1rem;
+    }
+    .profile img {
+        width: 40%;
+        float: right;
+        padding: 1rem;
+    }
+
+    section {
+        width: 33.33%;
+        float:left;
+        padding: 0.6rem;
+    }
+    
+    #contact {
+        padding: 5rem;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .footer-list {
+        display: inline-block;
+        font-size: 0.9rem;
+        font-weight: bold;
+        float: right;
+    }
+
+    header h1 {
+        float: left;
+    }
+    header ul {
+        float: right;
+    }
+
+    body {
+        width: 978px;
+        margin: auto;
+    }
+}
